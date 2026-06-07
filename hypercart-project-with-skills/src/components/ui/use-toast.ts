@@ -1,0 +1,4 @@
+import { useToast, toast } from "/src/hooks/use-toast.ts";
+export { useToast, toast };
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVzZS10b2FzdC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VUb2FzdCwgdG9hc3QgfSBmcm9tIFwiQC9ob29rcy91c2UtdG9hc3RcIjtcblxuZXhwb3J0IHsgdXNlVG9hc3QsIHRvYXN0IH07XG4iXSwibmFtZXMiOlsidXNlVG9hc3QiLCJ0b2FzdCJdLCJtYXBwaW5ncyI6IkFBQUEsU0FBU0EsUUFBUSxFQUFFQyxLQUFLLFFBQVEsb0JBQW9CO0FBRXBELFNBQVNELFFBQVEsRUFBRUMsS0FBSyxHQUFHIn0=

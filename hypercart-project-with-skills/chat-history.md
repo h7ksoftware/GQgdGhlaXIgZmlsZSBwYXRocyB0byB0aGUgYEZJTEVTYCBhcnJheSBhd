@@ -1,0 +1,27 @@
+# Chat History Summary
+
+- Initial Request: Create a shopping cart overlay like snip-cart with stubbed information, Chat Bot, Forms, and standard checkout flows.
+- Layout/Styling Fixes: Adjusted slide-in layout and spacing.
+- Cart Flows: Added flows for Terms of Service, Upsells, Add-ons.
+- Checkout Wizard: Converted checkout into a step-by-step wizard, added examples of Subscriptions and Configurable products.
+- CRM Integration: Wired checkout form and live support chat to CRM tracking.
+- Mobile Responsiveness: Fixed scroll area layout issues and mobile dimensions.
+- CSS Overrides: Added `.h-full`, `#cart-items-container` max-height, and responsive styles for overlay and sidebar.
+- Onboarding Components: Added 30+ UI components for onboarding and information collection in the checkout flow.
+- Product Catalog: Created a catalog of sections with various product types and a JSON configurator.
+- Code Editor: Integrated Monaco Editor for JSON configuration.
+- Overview Tab: Replaced Support Tab with a dynamic Overview tab pulling content via AJAX.
+- Library Refactoring: Refactored cart into a CDN-distributable library (`hyper-cart-loader.js`), added documentation.
+- Configuration Wizard: Auto-open wizard for configurable items in cart, renamed project to HyperCart.
+- Data Attributes: Namespaced all data attributes to `hc-*`.
+- GHL Integration: Discussed CRM integrations (Form Tracking, Calendar).
+- Grouped Items & URL Auto-Add: Added bundle support and URL parameter auto-adds.
+- External API Validation: Added external API validation steps to the configuration flow.
+- Presentation Modes: Added modal, inline, and card-overlay presentation modes.
+- Cart Controls: Replaced "Add to Cart" with inline quantity controls for items already in the cart.
+- API Expansion: Added `scanPage()`, strings/translation layer, and JavaScript API methods.
+- Shopping Attendant: Added `HyperAttendant` AI chat interface and companion library.
+- Dashboard Wizard: Refactored Dashboard into a 7-step wizard with a Visual Builder.
+- Documentation: Added Technical Brief to README.md with Claude Code skill.
+- Advanced Cart Features: Added discounts, shipping, taxes, and fixed layout regressions.
+- Export Feature: Built a Download page to export the project source code as a ZIP.
